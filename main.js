@@ -1,7 +1,7 @@
 //Class
-
 const BaseUser = class{
 
+    //field
     #password;//private
     constructor(name,password)
     {
@@ -23,7 +23,7 @@ const BaseUser = class{
         return`${name}`;
     }
 
-    Activity()
+    Activity()//methods
     {
         console.log("Activity");
     }
@@ -64,7 +64,7 @@ const Addmin = class extends BaseUser{
     }
 }
 
-
+//static
 const GodStatic = class
 {   
     static Database = [];
